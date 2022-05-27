@@ -16,6 +16,53 @@
 
 #define HPR LG(LC(LS(LALT)))
 
+/* Swedish chars */
+#define SE_AA           LBKT
+#define SE_AE           SQT
+#define SE_OO           SEMICOLON
+
+// Left hand
+#define SE_LPRN         LS(NUM_8))
+#define SE_RPRN         LS(NUM_9))
+#define SE_LBKT         LA(NUM_8))
+#define SE_RBKT         LA(NUM_9))
+#define SE_LBRC         LS(LA(NUM_8)))
+#define SE_RBRC         LS(LA(NUM_9)))
+
+#define SE_TILDE        LA(RBKT) 
+#define SE_AT           LA(NUM_2)
+#define SE_SLASH        LS(NUM_7) 
+#define SE_UNDERSCORE   LS(SLASH)
+
+#define SE_LT           GRAVE
+#define SE_PLUS         MINUS
+
+#define SE_PIPE         LA(NUM_7)
+
+// Right hand
+#define SE_GRAVE        PLUS
+#define SE_EQUAL        LS(NUM_0)
+
+#define SE_CARET        RBRC
+#define SE_DOLLAR       LA(NUM_4)
+#define SE_ASTERISK     PIPE
+#define SE_BACKSLASH    LS(LA(NUM_7))
+#define SE_AMPS         LS(NUM_6)
+#define SE_COLON        LS(DOT)
+
+#define SE_GT           LS(GRAVE)
+
+#define SE_PERCENT      LS(NUM_5)
+
+#define SE_ACUT         EQUAL
+#define SE_MINUS        SLASH
+
+#define SE_QUESTION     UNDERSCORE
+#define SE_EXCLAMATION  LS(NUM_1)
+
+#define SE_SQT          BACKSLASH
+#define SE_DQT          LS(NUM_2)
+
 / { 
 
     combos {
@@ -66,32 +113,32 @@
         combo_lpar {
             timeout-ms = <50>;
             key-positions = <1 2>;
-            bindings = <&kp LPAR>;
+            bindings = <&kp SE_LPAR>;
         };
 
         combo_rpar {
             timeout-ms = <50>;
             key-positions = <2 3>;
-            bindings = <&kp RPAR>;
+            bindings = <&kp SE_RPAR>;
         };
 
 
         combo_tilde {
             timeout-ms = <50>;
             key-positions = <0 10>;
-            bindings = <&kp TILDE>;
+            bindings = <&kp SE_TILDE>;
         };
 
         combo_at {
             timeout-ms = <50>;
             key-positions = <1 11>;
-            bindings = <&kp AT>;
+            bindings = <&kp SE_AT>;
         };
 
         combo_slash {
             timeout-ms = <50>;
             key-positions = <2 11>;
-            bindings = <&kp SLASH>;
+            bindings = <&kp SE_SLASH>;
         };
 
         combo_hash {
@@ -103,52 +150,52 @@
         combo_underscore {
             timeout-ms = <50>;
             key-positions = <3 13>;
-            bindings = <&kp UNDERSCORE>;
+            bindings = <&kp SE_UNDERSCORE>;
         };
 
 
         combo_lt {
             timeout-ms = <50>;
             key-positions = <10 11>;
-            bindings = <&kp LT>;
+            bindings = <&kp SE_LT>;
         };
 
         combo_lbrc {
             timeout-ms = <50>;
             key-positions = <11 12>;
-            bindings = <&kp LBRC>;
+            bindings = <&kp SE_LBRC>;
         };
 
         combo_rbrc {
             timeout-ms = <50>;
             key-positions = <12 13>;
-            bindings = <&kp RBRC>;
+            bindings = <&kp SE_RBRC>;
         };
 
         combo_plus {
             timeout-ms = <50>;
             key-positions = <13 14>;
-            bindings = <&kp PLUS>;
+            bindings = <&kp SE_PLUS>;
         };
 
 
         combo_pipe {
             timeout-ms = <50>;
             key-positions = <13 23>;
-            bindings = <&kp PIPE>;
+            bindings = <&kp SE_PIPE>;
         };
 
 
         combo_lbkt {
             timeout-ms = <50>;
             key-positions = <21 22>;
-            bindings = <&kp LBKT>;
+            bindings = <&kp SE_LBKT>;
         };
 
         combo_rbkt {
             timeout-ms = <50>;
             key-positions = <22 23>;
-            bindings = <&kp RBKT>;
+            bindings = <&kp SE_RBKT>;
         };
 
 
@@ -156,64 +203,64 @@
         combo_grave {
             timeout-ms = <50>;
             key-positions = <6 7>;
-            bindings = <&kp GRAVE>;
+            bindings = <&kp SE_GRAVE>;
         };
 
         combo_equal {
             timeout-ms = <50>;
             key-positions = <7 8>;
-            bindings = <&kp EQUAL>;
+            bindings = <&kp SE_EQUAL>;
         };
 
 
         combo_caret {
             timeout-ms = <50>;
             key-positions = <5 15>;
-            bindings = <&kp CARET>;
+            bindings = <&kp SE_CARET>;
         };
 
         combo_dollar {
             timeout-ms = <50>;
             key-positions = <6 16>;
-            bindings = <&kp DOLLAR>;
+            bindings = <&kp SE_DOLLAR>;
         };
 
         combo_asterisk {
             timeout-ms = <50>;
             key-positions = <7 17>;
-            bindings = <&kp ASTERISK>;
+            bindings = <&kp SE_ASTERISK>;
         };
 
         combo_backslash {
             timeout-ms = <50>;
             key-positions = <7 18>;
-            bindings = <&kp BACKSLASH>;
+            bindings = <&kp SE_BACKSLASH>;
         };
 
         combo_amps {
             timeout-ms = <50>;
             key-positions = <8 18>;
-            bindings = <&kp AMPS>;
+            bindings = <&kp SE_AMPS>;
         };
 
         combo_colon {
             timeout-ms = <50>;
             key-positions = <9 19>;
-            bindings = <&kp COLON>;
+            bindings = <&kp SE_COLON>;
         };
 
 
         combo_gt {
             timeout-ms = <50>;
             key-positions = <18 19>;
-            bindings = <&kp GT>;
+            bindings = <&kp SE_GT>;
         };
 
 
         combo_percent {
             timeout-ms = <50>;
             key-positions = <16 26>;
-            bindings = <&kp PERCENT>;
+            bindings = <&kp SE_PERCENT>;
         };
 
         combo_comma {
@@ -222,36 +269,42 @@
             bindings = <&kp COMMA>;
         };
 
-        
+
+        combo_acut {
+            timeout-ms = <50>;
+            key-positions = <26 27>;
+            bindings = <&kp SE_ACUT>;
+        };
+
         combo_minus {
             timeout-ms = <50>;
             key-positions = <27 28>;
-            bindings = <&kp MINUS>;
+            bindings = <&kp SE_MINUS>;
         };
 
 
         combo_question {
             timeout-ms = <50>;
             key-positions = <8 16>;
-            bindings = <&kp QUESTION>;
+            bindings = <&kp SE_QUESTION>;
         };
 
         combo_exclamation {
             timeout-ms = <50>;
             key-positions = <9 16>;
-            bindings = <&kp EXCLAMATION>;
+            bindings = <&kp SE_EXCLAMATION>;
         };
 
         combo_sqt {
             timeout-ms = <50>;
             key-positions = <6 8>;
-            bindings = <&kp SQT>;
+            bindings = <&kp SE_SQT>;
         };
 
         combo_dqt {
             timeout-ms = <50>;
             key-positions = <16 18>;
-            bindings = <&kp DQT>;
+            bindings = <&kp SE_DQT>;
         };
     };
 
@@ -260,9 +313,9 @@
                 
 		default_layer {
 		bindings = <
-		&kp Q       &kp W       &kp F       &kp P       &kp B			&kp J       &kp L       &kp U       &kp Y       &kp O
+		&kp Q       &kp W       &kp F       &kp P       &kp B			&kp J       &kp L       &kp U       &kp Y       &kp SE_OO
 		&mt LSFT A  &mt LCTL R  &mt LALT S  &mt LGUI T  &kp G			&kp M       &mt RGUI N  &mt RALT E  &mt RCTL I  &mt RSFT O
-		&lt 2 Z     &kp X       &kp C       &kp D       &kp V			&kp K       &kp H       &kp A       &kp A       &lt 2 DOT
+		&lt 2 Z     &kp X       &kp C       &kp D       &kp V			&kp K       &kp H       &kp SE_AA   &kp SE_AE   &lt 2 DOT
 		                                    &mt HPR SPC &lt 1 TAB		&lt 1 ESC   &kp BSPC
 		>;
 		};
