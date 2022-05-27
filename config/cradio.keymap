@@ -22,12 +22,12 @@
 #define SE_OO           SEMICOLON
 
 // Left hand
-#define SE_LPAR         LS(NUM_8))
-#define SE_RPAR         LS(NUM_9))
-#define SE_LBKT         LA(NUM_8))
-#define SE_RBKT         LA(NUM_9))
-#define SE_LBRC         LS(LA(NUM_8)))
-#define SE_RBRC         LS(LA(NUM_9)))
+#define SE_LPAR         LS(NUM_8)
+#define SE_RPAR         LS(NUM_9)
+#define SE_LBKT         LA(NUM_8)
+#define SE_RBKT         LA(NUM_9)
+#define SE_LBRC         LS(LA(NUM_8))
+#define SE_RBRC         LS(LA(NUM_9))
 
 #define SE_TILDE        LA(RBKT) 
 #define SE_AT           LA(NUM_2)
