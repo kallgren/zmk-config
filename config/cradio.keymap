@@ -15,6 +15,7 @@
 };
 
 #define HPR LG(LC(LS(LALT)))
+#define MAC_LOCK LG(LC(Q))
 
 /* Swedish chars */
 #define SE_AA           LBKT
@@ -340,10 +341,10 @@
 		
 		adjust_layer {
 		bindings = <
-		&reset  &kp NUM_2    &kp NUM_3    &kp NUM_4    &kp NUM_5		&trans &trans   &trans   &trans  &reset
-		&bootloader   &kp F2 &kp F3 &kp F4 &kp F5						&trans &kp PG_UP  &kp K_VOL_UP &kp K_MUTE &bootloader 
-		&bt BT_CLR  &bt BT_NXT &bt BT_PRV &kp F6 &kp F7 				&trans &kp PG_DN  &kp K_VOL_DN  &trans &trans   
-		                                  &trans &trans					&trans &trans 
+		&kp C_PLAY_PAUSE  &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT		&trans  &trans  &trans  &trans  &kp MAC_LOCK
+		&bootloader       &reset      &trans        &trans        &trans			&trans  &trans  &trans  &reset  &bootloader
+		&bt BT_CLR        &bt BT_NXT  &bt BT_PRV    &trans        &trans			&trans  &trans  &trans  &trans  &trans
+		                                            &trans        &trans			&trans  &trans
 		>;
 		};	
         
