@@ -154,6 +154,12 @@
             bindings = <&kp HASH>;
         };
 
+        combo_dqt {
+            timeout-ms = <50>;
+            key-positions = <2 13>;
+            bindings = <&kp SE_DQT>;
+        };
+
         combo_underscore {
             timeout-ms = <50>;
             key-positions = <3 13>;
@@ -185,6 +191,12 @@
             bindings = <&kp SE_PLUS>;
         };
 
+
+        combo_sqt {
+            timeout-ms = <50>;
+            key-positions = <12 23>;
+            bindings = <&kp SE_SQT>;
+        };
 
         combo_pipe {
             timeout-ms = <50>;
@@ -302,13 +314,13 @@
             bindings = <&kp SE_EXCLAMATION>;
         };
 
-        combo_sqt {
+        combo_sqt2 {
             timeout-ms = <50>;
             key-positions = <6 8>;
             bindings = <&kp SE_SQT>;
         };
 
-        combo_dqt {
+        combo_dqt2 {
             timeout-ms = <50>;
             key-positions = <16 18>;
             bindings = <&kp SE_DQT>;
