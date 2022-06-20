@@ -69,6 +69,6 @@ Media controls, macOS lock, KB reset, bootloader and BT
 
 <kbd>n</kbd><kbd>ö</kbd> = !
 
-<kbd>n</kbd><kbd>i</kbd> = "
+<kbd>w</kbd><kbd>p</kbd> / <kbd>l</kbd><kbd>y</kbd> = '
 
-<kbd>l</kbd><kbd>y</kbd> = '
+<kbd>r</kbd><kbd>t</kbd> / <kbd>n</kbd><kbd>i</kbd> = "
