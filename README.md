@@ -22,9 +22,9 @@ z   x   c   d   v     k   h   å   ä   .
 ### Combos
 ```
 q ! w ( f ) p   b     j   l ` u = y   ö
-~   @ / # " _         ^   $ ↑ * \ &   :
+~   @ / # " _         ^   $ ↑ * \ ;   :
 a < r { s } t + g     m ← n ↓ e → i > o
-          ' |             % ,     ;    
+          ' |             % ,     &    
 z   x [ c ] d   v     k   h ´ å - ä   .
                                        
            spc tab   esc bsp           

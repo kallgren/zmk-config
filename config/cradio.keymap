@@ -263,10 +263,10 @@
             bindings = <&kp SE_BACKSLASH>;
         };
 
-        combo_amps {
+        combo_semicolon {
             timeout-ms = <50>;
             key-positions = <8 18>;
-            bindings = <&kp SE_AMPS>;
+            bindings = <&kp SE_SEMICOLON>;
         };
 
         combo_colon {
@@ -295,10 +295,10 @@
             bindings = <&kp COMMA>;
         };
 
-        combo_semicolon {
+        combo_amps {
             timeout-ms = <50>;
             key-positions = <18 28>;
-            bindings = <&kp SE_SEMICOLON>;
+            bindings = <&kp SE_AMPS>;
         };
 
 
